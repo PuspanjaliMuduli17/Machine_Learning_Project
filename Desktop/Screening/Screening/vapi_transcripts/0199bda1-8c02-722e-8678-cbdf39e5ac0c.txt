@@ -1,0 +1,9 @@
+AI: Hi there. I'm mister Hyer from MSight. Hi.
+User: Hi.
+AI: Hello. Am I speaking with Samyukta?
+User: Yes.
+AI: Great. I'm mister Hyer calling from ME site. Regarding the DS position Is this a good time to talk to you?
+User: No.
+AI: No problem. When would be a better time me to reach you?
+User: Around 8 PM?
+AI: Perfect. I'll reach out to you around 8 PM

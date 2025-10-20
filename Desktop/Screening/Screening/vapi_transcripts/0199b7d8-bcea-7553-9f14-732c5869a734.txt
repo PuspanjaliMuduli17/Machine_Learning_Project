@@ -1,0 +1,9 @@
+AI: Hi there. I'm mister Hyer from Emmisight.
+User: Hi.
+AI: Hello. Am I speaking with some candidate name?
+User: Uh, yes.
+AI: Great. I'm mister Hyer calling from MS site, uh, regarding the college roll top position. Is this a good time to talk to you?
+User: No.
+AI: No problem. Would be a better time for me to reach you?
+User: 8 PM tonight.
+AI: Thank you for that. I'll call you back at 8 PM tonight.

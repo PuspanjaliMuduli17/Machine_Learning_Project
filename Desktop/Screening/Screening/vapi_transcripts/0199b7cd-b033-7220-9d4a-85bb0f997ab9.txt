@@ -1,0 +1,25 @@
+AI: Hi there. I'm mister Hyer from Emesite. I'll be conducting a quick 3 minute screening for the role you applied to. Are you ready to begin?
+User: Yes.
+AI: Great. Could you please give me a brief introduction about yourself, um, including your current role and background?
+User: Hey. I'm. Currently, I'm working at the Advant's application and, uh, analyst at Accenture. I was a undergrad at uh, in IT.
+AI: Thank you for sharing that. Now let's go through a few fit questions. Uh, are you open for, um, permanent contract or freelance roles?
+User: Permanent contract.
+AI: Got it. What's your current notice period?
+User: 30 days?
+AI: Thanks. What's your current CTC and expected CTC?
+User: My current set is 15 LPA and expected is 25. So
+AI: Thank you for that information. Um, are you open to working from location, or would you prefer remote?
+User: I would prefer remote.
+AI: Understood. How many 12 years of experience do you have?
+User: Oh, 1 year?
+AI: Thanks for clarifying. What are your primary technical skills or domain expertise?
+User: My primary technical skill did well, but on machine learning, Python, and this library is deep learning. Genetic, uh, AI, and, um, uh, Authenticator.
+AI: Thank you for sharing, uh, your skills. You mentioned Python. Uh, do you have hands on production experience with it?
+User: Uh, yes.
+AI: Great. Have you used Python in the last 612 months?
+User: Yes.
+AI: If you faced an issue with a slow running Python script, what approach would you take?
+User: I'll try to improvise the synth. 4.
+AI: No pressure. Take your time. If you faced an issue with a slow running Python script, approach would you take?
+User: No idea.
+AI: That's alright. Take your time. You can think about optimizing the code, maybe using profiling tools, or checking for inefficiencies in algorithms. Thanks. Have a candidate name. Our team will review your responses, and you may receive a WhatsApp or email with a task for deeper evaluation. Have a great day.

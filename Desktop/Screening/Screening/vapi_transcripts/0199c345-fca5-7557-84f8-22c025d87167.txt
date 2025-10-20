@@ -1,0 +1,37 @@
+AI: Hi there. I'm mister Hayar from MA site.
+User: Hi.
+AI: Hello. Am I speaking with Puja?
+User: Yes.
+AI: Great. I'm calling. Regarding the data science position you applied for. Is this a good time to talk?
+User: Yes.
+AI: Perfect. Thank you. To get started, could you please give me a quick introduction about yourself? Your current role, what you're working on, and your background?
+User: Hey. I'm Puja. Currently, I'm working with Accenture.
+AI: Thank you, Puja. It's great to know you're with Accenture. How many years of experience do you have in data science? And what specific projects are you currently working on?
+User: 2 year of experience, and currently, I'm working on building a voice assistant.
+AI: That sounds interesting. Thank you for sharing. I just have a few quick questions to understand your fit for the role. Are you open to permanent contract or freelance roles?
+User: Freelance role.
+AI: Got it. What's your current notice period?
+User: 30 days.
+AI: Thank you. What's your current CTC and your expected CTC?
+User: 10 LPA and expected 25 LPA.
+AI: Thanks for that information. Are you open to working from the office location, or would you prefer remote or hybrid?
+User: Hybrid.
+AI: Got it? Just to confirm, how many total years of experience do you have in data science?
+User: 2 years.
+AI: Thank you, Puja. Are your primary technical skills or domain expertise in data science?
+User: Uh, Python and its library.
+AI: That's great. You mentioned Python. Do you have hands on production experience with it?
+User: Yes.
+AI: Wonderful. Which libraries do you primarily use with Python for your data science projects?
+User: Uh, TensorFlow.
+AI: Thank you for that. Have you used TensorFlow recently? Within the last 6? To 12 months?
+User: No.
+AI: No worries. Just to dive a bit deeper, can you describe a recent project where you applied TensorFlow What was your approach?
+User: No idea.
+AI: That's okay. Let's move on. Do you have experience with any data visualization tools? Like Power BI or Tableau?
+User: No. No.
+AI: Got it. How about SQL? Have you worked with it in your project?
+User: No.
+AI: Thank you for your honesty. That's all from my side for now. Our team will review your responses and communicate with you via WhatsApp with the next steps or a short task. Have a wonderful day ahead.
+User: Thank you.
+AI: Goodbye.

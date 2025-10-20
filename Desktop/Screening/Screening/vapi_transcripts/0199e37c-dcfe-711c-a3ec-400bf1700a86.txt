@@ -1,0 +1,39 @@
+AI: Hi there. I'm mister Hayar from MSI.
+User: Hello. Hi.
+AI: Hello? Am I speaking with sergeant Tong?
+User: Yes.
+AI: Great. I'm calling regarding the AI developer position you applied for. Is this a good time to talk?
+User: Yes. We can speak.
+AI: Perfect. Thank you. This will only take about 3 to 4 minutes, Before we begin, could you please give me a quick introduction about yourself? Your current role, what you're working on, and your background?
+User: Uh, yes. Uh, like, I'm Sajant. I did my education
+AI: Thank you, Sajid.
+User: I did my education in financial learnings. And currently, I'm working on different financial projects.
+AI: That sounds interesting. So you have a focus on financial projects. Many years of experience do you have in this domain?
+User: 4.
+AI: Thank you for sharing that. Now I just have a few quick questions to understand your fit for the role. Are you open to permanent contract or freelance roles?
+User: Yes. I am.
+AI: Great. What's your current notice period?
+User: 2 days?
+AI: Got it. What's your current CTC and
+User: The current CTC is 50 LPA, and I'm expecting 70 LPA.
+AI: Thank you for that. Are you open to working from a specific location? Would you prefer remote or hybrid?
+User: Only remote.
+AI: Understood. Just to confirm, how many total years of experience do you have in financial modeling?
+User: 4 years.
+AI: Thank you, Sajid. Are your primary technical skills or domain expertise?
+User: Like, I'm aware of how cloud works. I have 2 years of experience in Azure.
+AI: That's helpful.
+User: Like, I can can build machine learning models
+AI: Excellent. You mentioned machine learning. Do you have hands on production experience with it?
+User: Yes.
+AI: That's great to hear. Which tools are frameworks do you primarily use for building machine learning models?
+User: But Plus
+AI: Can you elaborate on that? Do you mean you primarily use tools like PyTorch or TensorFlow
+User: Yes. No.
+AI: Alright. Have you used any of those tools recently? Within the last 6 to 12 months?
+User: Yes. I have used, like, about 2 weeks ago.
+AI: Nice. If you encountered a situation, where your machine learning model was underperforming, how would you approach diagnosing and improving it?
+User: I don't know.
+AI: No worries. It can be a complex topic. Thank you for your honesty. That's all from my side for now, Sajid. Our team will review your responses and communicate with you via WhatsApp the next step. Have a wonderful day ahead.
+User: Thank you.
+User: Please

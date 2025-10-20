@@ -1,0 +1,26 @@
+AI: Hi there. I'm mister Hayer from MA site.
+User: Hi.
+AI: Hello? Am I speaking with the candidate name?
+User: Yes.
+AI: Great. I'm mister Hyer calling from from ME site regarding the role position. Is this a good time to talk to you?
+User: Yes.
+AI: Perfect. Thank you. Before we begin, could you please give me a quick introduction about yourself? Your current role and background,
+User: Yes. And Pospanzli currently working as the advanced application engineering analyst Accenture. So
+AI: Thank you for sharing that past Bensley. I just have a few quick questions to understand your fit for the role. Are you open to permanent contract or freelance roles? Got it. And what's your current notice period?
+User: 30 days.
+AI: Thank you. What's your current CTC and expected CTC?
+User: Current CTC is 15 LPA and expected is 35.
+AI: Thank you for that information, Are you open to working from location, or would you prefer remote?
+User: Remote.
+AI: Great. How many total years of experience do you have?
+User: 4.
+AI: Thanks for that. What are your primary tech skills or domain expertise?
+User: Correct management.
+AI: Thank you for clarifying that. Let's talk a bit about your technical experience. You mentioned project management. Do you have hands on experience with it?
+User: Yes.
+AI: Have you used project management tools recently, say within the last 6 to 12 months?
+User: No.
+AI: That's okay. If you face the situation where a project was falling behind schedule, how would you approach solving it?
+User: No idea.
+AI: No pressure. Take your time. That's all from my side for now, Paul Bonsley. Our team will review your responses. You may receive a WhatsApp or email with the next steps or a short task. Have a wonderful day ahead.
+User: That's all.

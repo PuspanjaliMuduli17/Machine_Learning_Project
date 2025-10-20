@@ -1,0 +1,36 @@
+AI: Hi there. I'm mister Hayar from MA site.
+User: Hi.
+AI: Hello. Am I speaking with candidate name?
+User: Yes.
+AI: Great. I'm calling regarding the past role position you applied for. Is this a good time to talk?
+User: Yes.
+AI: Perfect. Thank you. To start, could you please give me a quick introduction about yourself, your current role, what you're working on, and your background?
+User: Yes. I'm Puspansley. Currently, I'm, uh, a advanced engineering analyst at Accenture. And I am a distant graduate from NIT route, Caroline 20 25.
+AI: Thank you for sharing that, Bhuspansli. It sounds like you have a solid background in engineering. I just have a few quick questions to understand your fit for the role. First, are you open to permanent contract or freelance roles?
+User: Permanent contract.
+AI: Got it. What's your current notice period?
+User: 30 days.
+AI: Thank you. And what's your current CTC? Unexpected CTC?
+User: Current is 12 LPA. Expected is 25 LPA.
+AI: Thank you for that information. Are you open to working from the specified location or would you prefer remote or hybrid?
+User: I would prefer hybrid.
+AI: That sounds good. Just to confirm, how many total years of experience do you have in engineering analysis?
+User: 3 year of experience.
+AI: Thank you for that. What are your primary technical skills or domain expertise?
+User: Uh, is around, uh, data science, machine learning, generative AI, and agent AI.
+AI: That's great expertise in data science and AI. You mentioned data science. Do you have hands on production experience with it?
+User: Yes.
+AI: That's good to hear. Which specific tools or frameworks do you typically use for your data science projects?
+User: I huge, uh, BS code. Are collab
+AI: Thank you for sharing that. Have you used any specific machine learning libraries like TensorFlow or PyTorch recently, within the last 6 to 12 months,
+User: Yes.
+AI: That's great. Can you describe a project where you applied machine learning What was your approach and the outcome?
+User: No idea.
+AI: No worries at all. Let's move on. How would you tackle a scenario where a machine learning model you deployed is underperforming? What steps would you take to troubleshoot?
+User: No idea.
+AI: Let's
+User: Hey, Likon.
+AI: I understand this might be challenging, and it's completely okay. Thank you for being honest. Do you have experience with any data visualization tools? Like Tableau or Power BI?
+User: No.
+AI: That's alright. Thank you for sharing, miss Pansley. That's all from my side for now. Our team will review your responses and communicate with you
+AI: via WhatsApp regarding the next steps. Have a wonderful day ahead. Goodbye.

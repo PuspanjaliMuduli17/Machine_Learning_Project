@@ -1,0 +1,53 @@
+AI: Hi there. I'm mister Hayar from MA site.
+User: Yes. Hi.
+AI: Hello? Am I speaking with Aisha?
+User: Yeah.
+AI: Great. I'm
+User: Yeah. Are you sure?
+AI: I apologize for the confusion. Am I speaking with Ayush, sir?
+User: Yeah. Ayush Salir.
+AI: Thank you, Ayush, sir. I'm calling regarding the AI developer position you applied for. This a good time to talk?
+User: Yes. Yes. Yes. I was waiting for your call on
+AI: Perfect. Thank you for confirming. This will only take about 3 to 4 minutes before we begin. Could you please give me a quick introduction about yourself? Your current role, what you're
+User: Okay. So I'm working in WNS. I did my BTEC loan somewhere. And then masters from IIT Madras.
+AI: Thank you.
+User: Currently, I'm doing my
+AI: That's
+User: currently, I'm doing my job in senior as a senior analysis a company called Edison Solutions.
+AI: Got it, Ayush. You're currently a senior analyst at Edison Solutions. Thank you for sharing that. I just have a few quick questions to understand your fit
+User: No. No. No. I paid EDC International, not EDC. I said EDC International.
+AI: Thank you for clarifying that, Ayush. You're a senior analyst at EDC International. I appreciate your patience. Now are you open to permanent contract or freelance roles?
+User: I want to do a freelance job.
+AI: Great. What's your current notice period?
+User: It's 1 20 day, but if you can give me more money, then I can shift it to 30 days as well.
+AI: Thanks for sharing that. What's your current CTC and expected CTC?
+User: Currently, I'm getting 5 l p, but looking at my experience in the quality of work I did, I'm expecting a hike of 300 percent. So a 20 LPM expect. Okay.
+AI: Understood, Ayush. You're currently at 5 lakh per annum and expecting around 20 lakh per annum. Are you open to working from the location we discussed, or would you prefer remote or hybrid?
+User: Anything will work for me. Only thing matter is that money.
+AI: Got it, Ayush. It's all about the compensation for you. Just to confirm, how many total years of experience do you have in AI development?
+User: I have a experience of 3.5 years.
+AI: Thank you for that information. What are your primary technical skills or domain expertise?
+User: Okay. So I'm I'm an expert in furniture making, and, uh, I did a good course in, uh, making gold jewelry. So this is my expertise in AI.
+AI: Thank you for sharing, Ayush. It seems like you have unique skills in furniture making and gold jewelry. However, can you elaborate on your expertise in AI and any relevant technical skills you have in that field?
+User: So when it comes to AI, then, uh, I was working in a team which used to make the IoT devices. Which is installed in the car such as the Tesla.
+AI: That's interesting. You worked on IoT devices, related to cars like Tesla. Do you have hands on production experience with any specific AI tools or frameworks in that project?
+User: Yeah. I worked Lina then Ellen Soli. So these 2 frameworks I have used.
+AI: Great. You mentioned using PyTorch and TensorFlow. Have you used these frameworks recently, say within the last 6 to 12 months?
+User: Sorry to say, but I haven't I haven't discussed about the PyTorch or the TensorFlow. I said I use Lina and and I'm sorry.
+AI: Thank you for clarifying, Ayush. You mentioned Lena and Ellen Soli. Let's focus on that. Can you describe a recent project where you applied these frameworks?
+User: Yeah. So I applied these frameworks while working in the Tata Capitals. So Tata Capitals wants to make insurance as policy. Where they were using the AI model. So there I applied it.
+AI: That's helpful, Ayush. It sounds like a significant project. How did you approach the problem of developing that AI model for the insurance policy? What was your role in it?
+User: So we used to collect the data, and our agent used to take all these steps that what to be done with the data. Which has needs to be called. This type of uh, works we used to do. For that project. And later on, we used to view that what can be a best model. And then deploy it.
+AI: Thank you for explaining that process, Ayush. It sounds like you were heavily involved in data collection and model deployment. How would you optimize an AI model that isn't performing as expected?
+User: Sorry to interrupt you, but, actually, I said that this all the work was done using the as an API. So we made the pipelines to do all this stuff. Starting from data collection to the
+AI: Got
+User: pipeline to push to the deployment.
+AI: Thank you for the clarification, Ayush. It sounds like you have built pipelines for data collection and deployment. That's valuable. Just to wrap up, how do you handle challenges when working with AI models?
+User: Actually, uh, when it comes to challenges, so I work in a team where we are the expert from all the field. So currently, I haven't faced any challenges but in future, if I get such challenges, then I'll definitely will try I can solve them.
+AI: Thank you for sharing that
+User: Do you have any challenges in your mind so that, uh, you can ask me that how you deal with it? So if you have any challenges in mind, can you please let me know so that I can answer accordingly?
+AI: Absolutely, Ayush. Let's say you have a model that's giving inconsistent results during testing. How would you approach diagnosing and resolving this issue?
+User: Okay. So you are saying can you come again?
+AI: Sure. If you have a model that's providing inconsistent results during testing, how would you diagnose and resolve that issue?
+User: Okay. So you want me to test the model that is not working fine? So I will look into the data. And if data is not fitting, then I will look at how the agents are being called, if the correct agent is being called. So, basically, they're debugging of this stuff. So this this is what I will do. In section array.
+AI: That sounds like a solid approach, Ayush. Thank you for elaborating on your process. That's all from my side for now. Our team will review your responses and communicate with you via WhatsApp with the next steps. Have a wonderful day ahead.

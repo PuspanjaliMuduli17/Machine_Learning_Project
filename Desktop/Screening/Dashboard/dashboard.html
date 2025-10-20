@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Recruitment Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .candidate-selector {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .selector-label {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .candidate-dropdown {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 12px;
+            background: white;
+            font-size: 1em;
+            font-weight: 500;
+            min-width: 250px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .candidate-profile {
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .candidate-info h2 {
+            font-size: 2.5em;
+            color: #2d3748;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .candidate-role {
+            font-size: 1.3em;
+            color: #667eea;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        .candidate-meta {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #718096;
+            font-weight: 500;
+        }
+
+        .meta-icon {
+            width: 20px;
+            height: 20px;
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.8em;
+        }
+
+        .status-badge {
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 0.95em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .status-selected { background: #c6f6d5; color: #22543d; }
+        .status-pending { background: #fef5e7; color: #c05621; }
+        .status-interview { background: #e6f3ff; color: #2b6cb0; }
+        .status-rejected { background: #fed7d7; color: #c53030; }
+
+        .scores-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .score-circle-container {
+            text-align: center;
+            background: #f8fafc;
+            padding: 30px;
+            border-radius: 20px;
+            border: 2px solid #e2e8f0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .score-circle-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .score-circle {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+
+        .circle-bg {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: #e2e8f0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .circle-progress {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: conic-gradient(from 0deg, #667eea 0%, #764ba2 var(--progress, 0%), #e2e8f0 var(--progress, 0%));
+            transition: all 1s ease;
+        }
+
+        .circle-inner {
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .score-number {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .score-label {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #4a5568;
+            margin-top: 10px;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .metrics-section {
+            background: #f8fafc;
+            border-radius: 20px;
+            padding: 30px;
+            border-left: 4px solid #667eea;
+        }
+
+        .section-title {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .metrics-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .metric-chip {
+            padding: 10px 18px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .metric-chip.primary { background: #667eea; color: white; }
+        .metric-chip.success { background: #48bb78; color: white; }
+        .metric-chip.warning { background: #ed8936; color: white; }
+        .metric-chip.info { background: #4299e1; color: white; }
+        .metric-chip.secondary { background: #a0aec0; color: white; }
+
+        .insights-section {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 20px;
+            padding: 35px;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .insight-card {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            padding: 25px;
+            backdrop-filter: blur(10px);
+        }
+
+        .insight-title {
+            font-size: 1.1em;
+            font-weight: 700;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .insight-text {
+            font-size: 0.95em;
+            line-height: 1.6;
+            opacity: 0.95;
+        }
+
+        .technical-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .skill-badge {
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+            backdrop-filter: blur(5px);
+        }
+
+        .action-section {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            min-width: 180px;
+            justify-content: center;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #4a5568;
+            border: 2px solid #e2e8f0;
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #48bb78, #38a169);
+            color: white;
+            box-shadow: 0 4px 15px rgba(72, 187, 120, 0.4);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        @media (max-width: 768px) {
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .scores-section {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .profile-header {
+                flex-direction: column;
+            }
+            
+            .candidate-meta {
+                gap: 15px;
+            }
+        }
+
+        .loading-animation {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 AI-Powered Recruitment Dashboard</h1>
+            <p>Individual Candidate Performance Analysis</p>
+        </div>
+
+        <div class="candidate-selector">
+            <div class="selector-label">📋 Select Candidate:</div>
+            <select class="candidate-dropdown" id="candidateSelect">
+                <option value="0">Sai Nandini Dhikonda - Data Engineer/Developer</option>
+                <option value="1">Sarah Chen - Senior Developer</option>
+                <option value="2">Marcus Johnson - Data Scientist</option>
+                <option value="3">Emily Rodriguez - Product Manager</option>
+                <option value="4">David Kim - Senior Developer</option>
+                <option value="5">Aisha Patel - Data Scientist</option>
+            </select>
+        </div>
+
+        <div class="candidate-profile loading-animation" id="candidateProfile">
+            <!-- Profile content will be dynamically generated -->
+        </div>
+    </div>
+
+    <script>
+        const candidates = [
+            {
+                name: "Sai Nandini Dhikonda",
+                role: "Data Engineer/Developer",
+                experience: "4 years",
+                location: "Hyderabad, India",
+                status: "interview",
+                overallScore: 80,
+                technicalScore: 70,
+                resumeScore: 85,
+                testScore: 75,
+                interviewScore: 82,
+                timeSpent: "00:34:26",
+                questionsAnswered: 12,
+                questionsSkipped: 0,
+                codingProblems: 3,
+                codingSkipped: 0,
+                proficiencyLevel: "LEVELING_UP",
+                skills: ["Python", "SQL", "Apache Spark", "AWS", "Docker", "Machine Learning"],
+                insights: {
+                    analyticalThinking: 4,
+                    crossfunctionalCollaboration: 4,
+                    deployment: 4,
+                    maintenance: 4,
+                    projectManagement: 3,
+                    communication: "Shows strong analytical thinking with data-driven approach",
+                    problemSolving: "Excellent problem-solving skills in data engineering challenges",
+                    teamwork: "Demonstrates collaborative mindset in cross-functional teams",
+                    technical: "Strong technical foundation in data engineering and ML"
+                }
+            },
+            {
+                name: "Sarah Chen",
+                role: "Senior Developer",
+                experience: "5 years",
+                location: "San Francisco, CA",
+                status: "selected",
+                overallScore: 90,
+                technicalScore: 92,
+                resumeScore: 92,
+                testScore: 88,
+                interviewScore: 91,
+                timeSpent: "00:28:15",
+                questionsAnswered: 15,
+                questionsSkipped: 0,
+                codingProblems: 4,
+                codingSkipped: 0,
+                proficiencyLevel: "EXPERT",
+                skills: ["React", "Node.js", "Python", "AWS", "GraphQL", "TypeScript"],
+                insights: {
+                    analyticalThinking: 5,
+                    crossfunctionalCollaboration: 4,
+                    deployment: 5,
+                    maintenance: 4,
+                    projectManagement: 4,
+                    communication: "Excellent technical communication with clear explanations",
+                    problemSolving: "Outstanding algorithmic thinking and creative solutions",
+                    teamwork: "Natural leader with strong collaborative skills",
+                    technical: "Deep expertise in full-stack development and architecture"
+                }
+            },
+            {
+                name: "Marcus Johnson",
+                role: "Data Scientist",
+                experience: "3 years",
+                location: "Boston, MA",
+                status: "interview",
+                overallScore: 85,
+                technicalScore: 82,
+                resumeScore: 85,
+                testScore: 82,
+                interviewScore: 87,
+                timeSpent: "00:31:45",
+                questionsAnswered: 13,
+                questionsSkipped: 1,
+                codingProblems: 3,
+                codingSkipped: 0,
+                proficiencyLevel: "PROFICIENT",
+                skills: ["Python", "R", "TensorFlow", "SQL", "Tableau", "Statistics"],
+                insights: {
+                    analyticalThinking: 5,
+                    crossfunctionalCollaboration: 3,
+                    deployment: 3,
+                    maintenance: 3,
+                    projectManagement: 3,
+                    communication: "Clear and methodical in explaining complex concepts",
+                    problemSolving: "Strong analytical approach with statistical rigor",
+                    teamwork: "Good team player, prefers research-oriented work",
+                    technical: "Solid foundation in ML and statistical analysis"
+                }
+            },
+            {
+                name: "Emily Rodriguez",
+                role: "Product Manager",
+                experience: "4 years",
+                location: "Austin, TX",
+                status: "selected",
+                overallScore: 87,
+                technicalScore: 78,
+                resumeScore: 88,
+                testScore: 85,
+                interviewScore: 89,
+                timeSpent: "00:25:30",
+                questionsAnswered: 14,
+                questionsSkipped: 0,
+                codingProblems: 2,
+                codingSkipped: 1,
+                proficiencyLevel: "PROFICIENT",
+                skills: ["Product Strategy", "Analytics", "UX Research", "Agile", "SQL", "Python"],
+                insights: {
+                    analyticalThinking: 4,
+                    crossfunctionalCollaboration: 5,
+                    deployment: 3,
+                    maintenance: 3,
+                    projectManagement: 5,
+                    communication: "Outstanding stakeholder communication and presentation skills",
+                    problemSolving: "Strategic thinking with strong user-centered approach",
+                    teamwork: "Exceptional leader in cross-functional environments",
+                    technical: "Good technical understanding with strong analytical skills"
+                }
+            },
+            {
+                name: "David Kim",
+                role: "Senior Developer",
+                experience: "6 years",
+                location: "Seattle, WA",
+                status: "pending",
+                overallScore: 75,
+                technicalScore: 78,
+                resumeScore: 78,
+                testScore: 75,
+                interviewScore: 72,
+                timeSpent: "00:38:20",
+                questionsAnswered: 11,
+                questionsSkipped: 2,
+                codingProblems: 2,
+                codingSkipped: 1,
+                proficiencyLevel: "COMPETENT",
+                skills: ["Java", "Spring Boot", "AWS", "Docker", "Microservices", "PostgreSQL"],
+                insights: {
+                    analyticalThinking: 3,
+                    crossfunctionalCollaboration: 3,
+                    deployment: 4,
+                    maintenance: 4,
+                    projectManagement: 2,
+                    communication: "Solid technical knowledge, could improve presentation skills",
+                    problemSolving: "Methodical approach, sometimes over-engineers solutions",
+                    teamwork: "Prefers individual work but willing to collaborate",
+                    technical: "Strong backend development with enterprise experience"
+                }
+            },
+            {
+                name: "Aisha Patel",
+                role: "Data Scientist",
+                experience: "4 years",
+                location: "Toronto, Canada",
+                status: "interview",
+                overallScore: 87,
+                technicalScore: 85,
+                resumeScore: 90,
+                testScore: 87,
+                interviewScore: 85,
+                timeSpent: "00:29:10",
+                questionsAnswered: 14,
+                questionsSkipped: 0,
+                codingProblems: 4,
+                codingSkipped: 0,
+                proficiencyLevel: "EXPERT",
+                skills: ["Python", "R", "Deep Learning", "NLP", "PyTorch", "Scikit-learn"],
+                insights: {
+                    analyticalThinking: 5,
+                    crossfunctionalCollaboration: 4,
+                    deployment: 3,
+                    maintenance: 3,
+                    projectManagement: 3,
+                    communication: "Articulates complex ML concepts with clarity",
+                    problemSolving: "Innovative approach to data science challenges",
+                    teamwork: "Excellent collaborator with research background",
+                    technical: "Advanced expertise in deep learning and NLP applications"
+                }
+            }
+        ];
+
+        function createScoreCircle(score, label) {
+            return `
+                <div class="score-circle-container">
+                    <div class="score-circle">
+                        <div class="circle-bg">
+                            <div class="circle-progress" style="--progress: ${score * 3.6}deg;"></div>
+                            <div class="circle-inner">
+                                <div class="score-number">${score}/10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="score-label">${label}</div>
+                </div>
+            `;
+        }
+
+        function renderCandidateProfile(candidateIndex) {
+            const candidate = candidates[candidateIndex];
+            const profileContainer = document.getElementById('candidateProfile');
+            
+            profileContainer.innerHTML = `
+                <div class="profile-header">
+                    <div class="candidate-info">
+                        <h2>${candidate.name}</h2>
+                        <div class="candidate-role">${candidate.role}</div>
+                        <div class="candidate-meta">
+                            <div class="meta-item">
+                                <div class="meta-icon">⏱</div>
+                                <span>${candidate.experience} experience</span>
+                            </div>
+                            <div class="meta-item">
+                                <div class="meta-icon">📍</div>
+                                <span>${candidate.location}</span>
+                            </div>
+                            <div class="meta-item">
+                                <div class="meta-icon">⏰</div>
+                                <span>Time: ${candidate.timeSpent} hours</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="status-badge status-${candidate.status}">${candidate.status}</div>
+                </div>
+
+                <div class="scores-section">
+                    ${createScoreCircle(Math.round(candidate.overallScore/10), 'Overall Interview Score')}
+                    ${createScoreCircle(Math.round(candidate.technicalScore/10), 'Technical Score')}
+                    ${createScoreCircle(Math.round(candidate.resumeScore/10), 'Resume Match')}
+                    ${createScoreCircle(Math.round(candidate.interviewScore/10), 'AI Interview')}
+                </div>
+
+                <div class="metrics-grid">
+                    <div class="metrics-section">
+                        <h3 class="section-title">📊 Overview Metrics</h3>
+                        <div class="metrics-row">
+                            <div class="metric-chip success">status: ${candidate.status.toUpperCase()}</div>
+                            <div class="metric-chip info">time_taken: ${candidate.timeSpent} hours</div>
+                            <div class="metric-chip primary">proficiency: ${candidate.proficiencyLevel}</div>
+                        </div>
+                    </div>
+
+                    <div class="metrics-section">
+                        <h3 class="section-title">❓ Question Metrics</h3>
+                        <div class="metrics-row">
+                            <div class="metric-chip success">questions_asked: ${candidate.questionsAnswered}</div>
+                            <div class="metric-chip warning">questions_skipped: ${candidate.questionsSkipped}</div>
+                            <div class="metric-chip info">coding_attended: ${candidate.codingProblems}</div>
+                            <div class="metric-chip secondary">coding_skipped: ${candidate.codingSkipped}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="metrics-section" style="margin-bottom: 30px;">
+                    <h3 class="section-title">📈 Scorecard Metrics</h3>
+                    <div class="metrics-row">
+                        <div class="metric-chip success">questions_answered: ${candidate.questionsAnswered}</div>
+                        <div class="metric-chip warning">coding_score: ${candidate.codingProblems > 0 ? Math.round(candidate.technicalScore) : 0}</div>
+                        <div class="metric-chip info">technical_score: ${Math.round(candidate.technicalScore)}</div>
+                        <div class="metric-chip primary">time_taken: ${candidate.timeSpent}</div>
+                        <div class="metric-chip secondary">overall_score: ${Math.round(candidate.overallScore)}</div>
+                    </div>
+                </div>
+
+                <div class="insights-section">
+                    <h3 class="section-title" style="color: white;">🧠 Interview Insights & Technical Skills</h3>
+                    <div class="insights-grid">
+                        <div class="insight-card">
+                            <div class="insight-title">💬 Communication Skills</div>
+                            <div class="insight-text">${candidate.insights.communication}</div>
+                        </div>
+                        <div class="insight-card">
+                            <div class="insight-title">🧩 Problem Solving</div>
+                            <div class="insight-text">${candidate.insights.problemSolving}</div>
+                        </div>
+                        <div class="insight-card">
+                            <div class="insight-title">🤝 Teamwork & Collaboration</div>
+                            <div class="insight-text">${candidate.insights.teamwork}</div>
+                        </div>
+                        <div class="insight-card">
+                            <div class="insight-title">⚡ Technical Expertise</div>
+                            <div class="insight-text">${candidate.insights.technical}</div>
+                            <div class="technical-skills">
+                                ${candidate.skills.map(skill => `<div class="skill-badge">${skill}</div>`).join('')}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 30px;">
+                        <h4 style="margin-bottom: 20px; font-size: 1.2em;">🎯 Technical Assessment Breakdown</h4>
+                        <div class="insights-grid">
+                            <div class="insight-card">
+                                <div class="insight-title">📊 Analytical Thinking</div>
+                                <div class="insight-text">Score: ${candidate.insights.analyticalThinking}/5 - Strong analytical and logical reasoning abilities</div>
+                            </div>
+                            <div class="insight-card">
+                                <div class="insight-title">🔗 Cross-functional Collaboration</div>
+                                <div class="insight-text">Score: ${candidate.insights.crossfunctionalCollaboration}/5 - Ability to work across different teams and domains</div>
+                            </div>
+                            <div class="insight-card">
+                                <div class="insight-title">🚀 Deployment & Operations</div>
+                                <div class="insight-text">Score: ${candidate.insights.deployment}/5 - Experience with deployment and operational processes</div>
+                            </div>
+                            <div class="insight-card">
+                                <div class="insight-title">🔧 Maintenance & Support</div>
+                                <div class="insight-text">Score: ${candidate.insights.maintenance}/5 - Skills in system maintenance and ongoing support</div>
+                            </div>
+                            <div class="insight-card">
+                                <div class="insight-title">📋 Project Management</div>
+                                <div class="insight-text">Score: ${candidate.insights.projectManagement}/5 - Project coordination and management capabilities</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-section">
+                    <button class="btn btn-primary" onclick="viewFullReport(${candidateIndex})">
+                        📄 View Full Report
+                    </button>
+                    <button class="btn btn-success" onclick="scheduleInterview(${candidateIndex})">
+                        📅 Schedule Interview
+                    </button>
+                    <button class="btn btn-secondary" onclick="downloadProfile(${candidateIndex})">
+                        ⬇️ Download Profile
+                    </button>
+                </div>
+            `;
+
+            // Add animation
+            profileContainer.style.opacity = '0';
+            profileContainer.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+                profileContainer.style.transition = 'all 0.6s ease';
+                profileContainer.style.opacity = '1';
+                profileContainer.style.transform = 'translateY(0)';
+            }, 100);
+        }
+
+        function viewFullReport(candidateIndex) {
+            const candidate = candidates[candidateIndex];
+            alert(`Opening full detailed report for ${candidate.name}\n\nThis would include:\n• Complete resume analysis\n• Detailed test breakdown\n• Full AI interview transcript\n• Comparative analysis\n• Hiring recommendations`);
+        }
+
+        function scheduleInterview(candidateIndex) {
+            const candidate = candidates[candidateIndex];
+            alert(`Scheduling interview for ${candidate.name}\n\nRedirecting to interview scheduler...`);
+        }
+
+        function downloadProfile(candidateIndex) {
+            const candidate = candidates[candidateIndex];
+            alert(`Downloading comprehensive profile for ${candidate.name}\n\nGenerating PDF report...`);
+        }
+
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            renderCandidateProfile(0);
+            
+            document.getElementById('candidateSelect').addEventListener('change', function() {
+                renderCandidateProfile(parseInt(this.value));
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+AI: Hi there. I'm mister Hayar from MA site.
+User: Hi.
+AI: Hello? I speaking with candidate name?
+User: Yes.
+AI: Great. I'm calling regarding the path role and position you applied for. Is this a good time to talk?
+User: Yes.
+AI: Perfect. Thank you. This will only take about 3 to 4 minutes to start could you please give me a quick introduction about yourself? Your current role, what you're working on, and your background?
+User: Yes. I'm constantly currently, I'm working as with, uh, with Accenture. And I have graduated from an IT lab, Taylor. My my

@@ -1,0 +1,31 @@
+AI: Hi there. I'm mister Hyer from Emmisight.
+User: Hi.
+AI: Hello. Am I speaking with Sotsu candidate name?
+User: Yes.
+AI: Great. I'm mister Hyer calling from Emesight regarding the roles position. Is this a good time to talk to you?
+User: Yes.
+AI: Perfect. Thank you. Uh, before we begin, you please give me a quick, uh, introduction about yourself, your current role, and background?
+User: Hi. I'm. Currently, I'm working with Accenture. Admin's engineering and least. And
+AI: Good Thanks for sharing that, Sotzu. It sounds like you have a solid background, in engineering. I just have a few quick questions. To understand your fit for the role. Are you open to permanent contracts or freelance roles?
+User: I'm open to permanent contracts.
+AI: Got it. What's your current notice period?
+User: 15 inch.
+AI: Thank you. What's your current CTC? Expected CTC?
+User: It's 12.8. 5. Expect Expecter is 30.
+AI: Thank you for that information. Are you open to working from a specific location? Or would you prefer remote?
+User: Yes. Working from specific location.
+AI: Great. How many total years of experience do you have?
+User: I have 4 year of experience.
+AI: Thank you, Sotsu. What are your primary technical skills or domain expertise?
+User: My domain expertise is product designing UI UX designing.
+AI: That's great. Let's talk a bit about your technical experience in UI, UX design. Do you have hands on production experience with it?
+User: Yes.
+AI: Have you used UI, UX design recently? Say, within the last 6 to 12 months?
+User: Yes.
+AI: Awesome. You faced a situation where a design needed improvement, based on user feedback, how would you approach solving it?
+User: I would approach brainstorming or different ways of redefining my design.
+AI: Thank you, Satsu. That's a solid approach. That's all from my side for now. Our team will review your responses, and you may receive a WhatsApp or email with the next steps or a short task. Have a wonderful day ahead.
+User: Thank you.
+AI: Goodbye.
+User: Okay.
+AI: Pause for 2 seconds, then end the call.

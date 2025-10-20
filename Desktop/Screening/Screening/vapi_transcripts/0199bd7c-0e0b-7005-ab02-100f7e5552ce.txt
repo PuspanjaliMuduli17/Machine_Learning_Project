@@ -1,0 +1,33 @@
+AI: Hi there. I'm mister Hyre from m a site. Hi.
+User: Hi.
+AI: Hello. Am I speaking with Samyukta?
+User: Yes.
+AI: Great. I'm mister Hayar calling from MSight regarding the DS position. Is this a good time to talk to you?
+User: Yes.
+AI: Perfect. Thank you. Before we begin, could you please give me a quick introduction? About yourself? Your current role, and background?
+User: Hi. Hi. This is some of your stuff.
+AI: Hello.
+User: Working with Accenture.
+AI: Got it. You're currently with Accenture. That's helpful. I just have a few quick questions to understand, uh, your fit for the role.
+User: Yes.
+AI: Are you open to permanent contract or freelance roles?
+User: 3 months from now.
+AI: Thank you. So your current notice period is, uh, 3 months. What's your current CTC? And expected CTC?
+User: Current CTC is 15 LPA, and expected is 40.
+AI: Thanks for sharing that. You open to or would you prefer remote?
+User: Remote.
+AI: Got it. You're open to remote work. How many total years of experience do you have?
+User: 5 year of experience.
+AI: Thank you. And what are your primary technical skills or domain expertise?
+User: You were used again.
+AI: I appreciate your response. Could you please clarify your technical skills, or domain expertise?
+User: Brainstorming design thinking.
+AI: Thank you for sharing that. Talk a bit about your technical experience. You mentioned design thinking. Do you have hands on production experience with it?
+User: No.
+AI: That's okay. Have you used Design Thinking recently, say, within the last 6 to 12 months?
+User: No.
+AI: I understand. If you faced a challenge in implementing design thinking, uh, in a project How would you approach solving it?
+User: No idea.
+AI: No pressure. Take your time. Thank you, Samyukta. That's all from my side. For now. Our team will review your responses. You may receive a WhatsApp or email with the next steps or a short task Have a wonderful day ahead.
+User: Okay. Thank you.
+AI: Goodbye.

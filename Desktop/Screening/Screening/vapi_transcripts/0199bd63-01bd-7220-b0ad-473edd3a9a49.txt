@@ -1,0 +1,13 @@
+AI: Hi there. I'm mister Hyer from Emysite.
+User: Hi.
+AI: Hello? Am I speaking with Samyukta?
+User: Yes.
+AI: Great. I'm mister Hyer calling from Emacyte. Regarding the DS position. This a good time to talk to you?
+User: No.
+AI: No problem. When would be a better time for me to reach you?
+User: Around 1 PM?
+AI: Sounds good. I'll call you back around 1 PM. Thank you, Samyukta.
+User: Thank you.
+AI: You're welcome. Looking forward to speaking with you later.
+User: Okay.
+AI: Have a great day.

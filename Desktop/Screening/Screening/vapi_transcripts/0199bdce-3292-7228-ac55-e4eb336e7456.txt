@@ -1,0 +1,39 @@
+AI: Hi there. I'm mister Hyer from EmySite. Hi.
+User: Hello. Hi.
+AI: Hello. Am I speaking with Sajun?
+User: Yes. You are.
+AI: Great. I'm mister Heyer calling from Emacyte. Regarding the DS position. Um, is this a good time to talk to you?
+User: Yes. We can speak.
+AI: Perfect. Thank you. Um, before we begin, um, could you please give me a quick introduction about yourself? Uh, your current role, and background?
+User: Yes. Uh, so myself, Arjan.
+AI: I'm listening. Please go ahead. You for that, Arjan. Just to clarify, can you share your current role and and some background, um, about your experience?
+User: Yes. Yes. Like, I have been working in data science since 2 years. And I have worked on multiple projects.
+AI: Thank you. Thank you for sharing that, Arjan. That sounds interesting. I have just a few quick questions. To understand, uh, you're fit for the role. First, are you open to permanent contract or freelance roles?
+User: Yes. I am open for permanent roles.
+AI: Great. What's your current notice period?
+User: My current notice period is 15 days.
+AI: Got it. And could you share your current CTC and expected CTC?
+User: Yes. My current CTC is 10. I'm expecting is 20 LPA.
+AI: Thank you for that, Arjohn. Are you open to working from a specific location? Or would you prefer remote?
+User: I'm open for any location, but I would prefer remote.
+AI: Understood. How many total years of experience do you have?
+User: I have roughly 4.5 years of experience.
+AI: Thank you for clarifying that. What are your primary technical skills? Or domain expertise?
+User: Domain expertise, I'm good at financial modeling.
+AI: Got it. So you're skilled in financial modeling. Let's talk a bit about your technical experience. Have you applied financial modeling in the production environment?
+User: Yes. I have. I worked for JPMC.
+AI: That's great to hear. Um, have you used financial modeling recently, say within the last 6 to 12 months?
+User: Yes. My let's
+AI: Perfect. If you face an issue where
+User: project.
+AI: got it. If you faced an issue where your financial model was showing, uh, inaccurate forecasts, would you approach solving that?
+User: Us.
+AI: No pressure. Take your time. Uh, what steps would you take to troubleshoot the inaccuracies in your financial model?
+User: Pass.
+AI: That's okay. You for your honesty art.
+User: Okay. Thank you.
+AI: Thank you, Arjan. That's all from my side. For now. Our team will review your responses. And you may receive a WhatsApp or email with the next steps or a short task. Have a wonderful day ahead.
+User: Okay. Thank you.
+AI: Goodbye.
+User: Taken.
+AI: Goodbye.

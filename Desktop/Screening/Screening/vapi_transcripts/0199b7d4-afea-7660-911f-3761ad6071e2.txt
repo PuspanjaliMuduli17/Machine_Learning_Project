@@ -1,0 +1,33 @@
+AI: Hi there. I'm mister Hyer from Emesite. I'll be conducting a quick 3 minute screening for the role you applied to Are you ready to begin?
+User: Yes.
+AI: Great. Am I speaking with candidate name?
+User: Yes.
+AI: Perfect. I'm mister Hyer calling from MS site. Regarding the toss and roll position. Is this a good time to talk talk to you?
+User: Yes.
+AI: Thank you. Um, before we begin, could you please give me a quick introduction about yourself? Your current role, and background?
+User: I am. Currently, I'm working with Accenture.
+AI: Thanks for
+User: And I have
+AI: no worries. Take your time. Uh, please continue with your introduction whenever you're ready.
+User: Yes. I have graduated from NIT route, Kellum.
+AI: Great to hear that. You graduated from NIT and are currently with Accenture? Thank you for sharing. I just have a few of quick questions. To understand your fit for the role. Are you open to, uh, permanent contract or freelance roles?
+User: Permanent contract.
+AI: Got it. What's your current notice period?
+User: 30 days.
+AI: Thanks for that. What's your current CTC and expected CTC?
+User: Current is 15 LPA and expected is 25.
+AI: Thank you for sharing that. Are you open to working from location, or would you prefer remote?
+User: Remote.
+AI: Understood. How many total years of experience do you have?
+User: 5 year of experience.
+AI: Thank you for that. What are your primary technical skills? Or domain expertise?
+User: I domain expertise include, uh, month start development. And machine learning. Deep learning. Uh, generative AI, and agented AI.
+AI: That's quite impressive. You mentioned the machine learning. And deep learning. You have hands on production experience with those?
+User: Yes.
+AI: Great. Have you used machine learning or deep learning recently, say, within the last 6 to 12 months?
+User: Yes.
+AI: Good to hear. If you faced a challenge like optimizing a machine learning model that's underperforming, how would you approach solving it?
+User: Try changing with a better model or hyperparameter tuning.
+AI: That sounds like a solid approach. Thank you. Some candidate name, That's all from my side for now. Our team will review your responses, and you may receive WhatsApp or email with the next steps or a short task. Have a wonderful day ahead.
+User: Thank you.
+AI: You're welcome. Take care, and talk soon.

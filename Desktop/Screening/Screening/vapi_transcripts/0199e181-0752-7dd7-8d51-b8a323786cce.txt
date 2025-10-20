@@ -1,0 +1,46 @@
+AI: Hi there. I'm mister Hayar from MA site.
+User: Hello?
+AI: Hello? I'm mister Hayar calling from May site.
+User: Yes.
+AI: Am I speaking with Ayush, sir?
+User: Yeah. I'm Ayush. How are you?
+AI: Great. Great to hear from you, Ayush. I'm doing well. Thank you. I'm calling regarding the AI developer position you applied for. Is this a good time to talk?
+User: No, sir. No. Actually, currently, I'm in a meeting with my friend. Very good friend. So Thank you. Thank you. I thank you. Okay. Sorry. Sorry. Sorry. No. No. Actually, I was not talking to you. So yeah. Yeah. Let me know. Yeah. I applied for that position. Yeah. Let me know about this.
+AI: I understand, Ayush. Would a different time work better for you? How about we schedule this for tomorrow at the same time?
+User: Okay. No. Currently, fine. You can talk to me about this position right now.
+AI: Perfect. Thank you for your flexibility, Ayush. To start, could you please give me a quick introduction about yourself? Your current role, what you're working on, and your background.
+User: Yeah. Sure. So myself, Ayush, I belong
+AI: Great. That's great to hear, Ayush. Please go ahead. I'm listening.
+User: Sure. Sure. Sure. So myself is Ayush. I'm from Kotak, and
+AI: Thank
+User: I did my schooling from uh, I did my schooling from here, And after that, I did my bachelor's from s 1 80 Surat. Later on, I did my masters from IIT Madras.
+AI: That's impressive.
+User: And later on, uh, since then, I'm since then I'm working in WNS analytics, on a position of senior analyst. Currently, I got promoted to deputy manager. Yeah, this is all about me. Mostly, I'm working on engineer dispositions.
+AI: Thank you for sharing that, Ayush. It's sounds like you have a solid background in analytics. I just have a few quick questions to understand your fit for the role. First, are you open to permanent contract or freelance roles?
+User: Sure. I'm okay to post.
+AI: Got it. And what's your current notice period?
+User: Current notice period is 1 20 days, but it is manageable to 60 days.
+AI: Thank you for clarifying that. What's your current CTC and expected CTC?
+User: Currently, I'm getting 5 LPA. And I want a hike of 200 percent. So it should be around 15 LPA.
+AI: Understood. That makes sense. Are you open to working from our location? Or would you prefer remote or hybrid options?
+User: First, I will prefer remove but we are hybrid, and even the office location is fine to me.
+AI: Thank you for your flexibility. Just to confirm, how many total years of do you have in analytics?
+User: I have a total of 2.5 years of experience. The same organization. Okay.
+AI: Got it, Ayush. And what are your primary technical skills or domain expertise?
+User: I mostly work on the JNA events project. Recently, I started working on identity Previously, I was working on. Before that, I worked in the q 4 in the pipeline. So, yeah, this is all about me.
+AI: Thank you.
+User: But, yeah, but, yeah, I can work in a process as well as for the public's requirement. Or whatever is at all.
+AI: That's great to hear, Ayush. You mentioned working with data pipelines. Do you have hands on production experience with tools like Python or SQL in your projects?
+User: Yes. I have.
+AI: That's excellent. Which specific tools or frameworks do you typically use in your data processing work with Python or SQL?
+User: Sorry. Can you come again?
+AI: Of course, which specific tools or frameworks do you typically use in your data processing work with Py
+User: Okay. So in Python, I generally use SQL and second line, then TensorFlow. Then I used the library to put the l o y's. To
+AI: Thank you for that detail, Ayush. Thank you for detailing that.
+User: and others.
+AI: Have you used TensorFlow or any similar libraries recently? Say within the last 6 to 12 months? Great.
+User: Yeah. You're you're currently using the next 2 months.
+AI: Can you share That's good to know. If you had a TensorFlow model taking too long to train, how would you approach optimizing it?
+User: I can try you with the path and the smaller technique.
+AI: Got it. That's a practical approach. Thank you for sharing your thoughts on that. That's all from my side for now. Our team will review your responses and communicate with you via WhatsApp with the next steps or a short task. Have a wonderful day ahead.
+User: Yeah. You're good. Thank you.

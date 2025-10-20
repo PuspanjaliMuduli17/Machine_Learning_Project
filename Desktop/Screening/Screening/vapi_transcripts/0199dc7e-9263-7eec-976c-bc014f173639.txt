@@ -1,0 +1,32 @@
+AI: Hi there. I'm mister Hayar from Maysight.
+User: Yeah. Hi.
+AI: Hello? Am I speaking with Kumar Gaurav?
+User: Yes. Yes.
+AI: Great. I'm calling regarding the AI engineer position you applied for. Is this a good time to talk?
+User: Yes. It is.
+AI: Perfect. Thank you. To start, could you give me a quick introduction about yourself? Your current role, what you're working on, and your background?
+User: Sure. So currently, I'm working at WNS. As senior data scientist. And I'm mostly involved around AI, generative AI, and LLM fine tuneings.
+AI: That's impressive experience in AI and LM fine tuning. How many years have you been in this field?
+User: So I have, uh, been in this field for 2 years.
+AI: Got it. Thank you for sharing that. I have a few quick questions. To understand your fit for the role. Are you open to permanent contract or freelance roles?
+User: Yeah. I'm open to permanent roles.
+AI: Great. What's your current notice period?
+User: Okay. So I have I'm having a notice period of 90 days.
+AI: Thank you for that. What's your current CTC and expected CTC?
+User: Okay. So my current CTC is 20 LPA, and I'm a expecting somewhere around 30 LPA. Okay.
+AI: Got it. Are you open to working from location? Or would you prefer remote or hybrid?
+User: I'm open to working from any position.
+AI: Thank you for clarifying that. Just to confirm, how many total years of experience do you have in AI? You mentioned 2 years earlier.
+User: Yeah. I'm having 2 year of experience.
+AI: Thank you. What are your primary technical skills or domain expertise in AI?
+User: Yeah. So in AI, I'm very good at, um, building agents. Uh, creating multi rack system, and also fine tuning of LLMs.
+AI: That's great expertise. You mentioned fine tuning LLMs. Do you have hands on production experience with it?
+User: Yeah. I have hands on experience.
+AI: Awesome. Which tools or framework do you primarily work with for fine tuning LLMs?
+User: So for fine tuning, I mostly go for LoRa and QLARA. With the context and methods.
+AI: Got it. Have you used those tools recently? Within the last 6 to 12 months?
+User: Yeah. I have used it.
+AI: That's good to hear. If you had to optimize a model that was performing poorly, what steps would you take?
+User: Yeah. So first, I'll do a quick bias variance check to understand if the model is not that biased And after that, I'll, uh, look for the use cases and optimize it in that direction.
+AI: Thank you for that insight. That sounds like a solid approach. I appreciate your time, Kumar Gaurav. That's all from my side for now. Our team will review your responses and communicate with you via WhatsApp regarding the next steps or a short task. Have a wonderful day ahead.
+User: Thank you.

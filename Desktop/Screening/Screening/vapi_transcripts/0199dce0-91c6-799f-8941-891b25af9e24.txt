@@ -1,0 +1,39 @@
+AI: Hi there. I'm mister Hayar from May site.
+User: Hello?
+AI: Hello. I'm mister Hayar calling from MSI. Am I speaking with Vineeth r?
+User: Yes. This is Unique.
+AI: Great. I'm calling regarding the AI developer position you applied for. Is this a good time to talk?
+User: Yes. Sure.
+AI: Perfect. Thank you. This will only take about 3 to 4 minutes before we begin. Could you please give me a quick introduction about yourself? Your current role, what you're working on, and your background?
+User: I'm currently working as uh, an engineer.
+AI: I think the Got it. Your current
+User: Hello?
+AI: Yes. I'm here. I just wanted to confirm. You're currently working as an engineer. Could you tell me a bit more about your experience and what projects you're working on?
+User: Yeah. I have an experience close to, uh, 2.5 years. Developing applications which leverage LLMs. it's predominantly work
+AI: That's greetings. Thank you for sharing that, That sounds interesting. Just a few quick questions to understand your fit for the role. Are you open to permanent contract or freelance roles?
+User: I'm open to permanent roles.
+AI: Got it. Your current notice period?
+User: The current notice period is 2 months.
+AI: Thank you for that. What's your current CTC and expected CTC?
+User: Current CTC is 15. My expectation is 30.
+AI: Understood. Are you open to working from location, or would you prefer remote or hybrid?
+User: Remote.
+AI: Got it. Just to confirm, how many total years of experience do you have in developing applications with LLMs?
+User: 2.5.
+AI: Thank you for that. What are your primary technical skills or domain expertise related to LLMs?
+User: I mean, I have worked in last FastAPI. And then, uh, a lot of prompt engineering.
+AI: That's great to hear.
+User: and I mean, I've also worked on Landcraft building agent tech systems.
+AI: That's impressive. You meant
+User: And a lot of the students interact also.
+AI: thank you for clarifying that. Let's delve a bit deeper. You mentioned fast API. Do you have hands on production experience with it?
+User: Yes. I have had some not production grade experience, but I have deployed it in a u 80 server, but I've not pushed it to production.
+AI: Got it. Thanks for sharing that. What database do you typically work with while using FastAPI?
+User: Uh, I mean, I just interact with post agreement in the back end.
+AI: Understood? Have you used FastAPI in the last 6 to 12 months?
+User: Yes. I have used POS API in the last 6 to 12 months.
+AI: That's great. If you had a fast API endpoint taking 5 seconds to respond, how would you approach debugging and optimizing it?
+User: I'll maybe look at the function which is being called within the within that endpoint. And then, uh, maybe use a profiler or something and find out where it's taking a lot of time and then try to optimize that.
+AI: That sounds like a solid approach. Thank you for your insights, Vineeth. That's all from my side for now. Our team will review your responses and communicate with you via WhatsApp with the next steps. Have a wonderful day ahead.
+User: Thank you.
+AI: Goodbye.

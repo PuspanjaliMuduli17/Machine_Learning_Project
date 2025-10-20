@@ -1,0 +1,35 @@
+AI: Hi there. I'm mister Hyer from MA Site.
+User: Hello.
+AI: Hello. Am I speaking with Gaurav?
+User: Yeah. Yeah. I'm Gaurav.
+AI: Great. Great. I'm mister Heyer calling from MA site. Regarding the DS position. This a good time to talk to you?
+User: Yeah. Yeah. If there's a good time, please go ahead.
+AI: Perfect. Thank you. Before we begin, could you please give me a quick introduction? About yourself? Your current role, and background?
+User: Yes. Hello. So my name is Kumar Gaurav. Currently, I'm working as a data scientist at WNS.
+AI: Nice.
+User: And, yeah, I'm interested around data science AI.
+AI: Thank Thank you for sharing that, Gaurav. Uh, I just have a few quick questions. To understand your fit for the role. Um, are you open to permanent contract or freelance roles?
+User: Yeah. I'm open to, you know, all kind of permanent contracts and any other roles.
+AI: Got it. That's helpful. Current notice period?
+User: Yeah. So I have a 15 day notice period.
+AI: Thank you for that. Um, what's your current CTC expected CTC?
+User: My current CTC is, uh, 30 LPA, and I would like to get it somewhere around 40, 45 LPA.
+AI: Thank you for clarifying that. Are you open to working from a specific location, or would you prefer remote?
+User: Yeah. I'm open to work from any location, but my preferred location would be either Noida Guga or Bangalore.
+AI: Got it. And how many total years of experience do you have?
+User: Okay. So I have, uh, experience of around 5 years.
+AI: Thank you. And what are your primary technical skills? Or domain expertise?
+User: Yeah. So my primary technical skills lies, uh, in the domain of you know, AI and data science development, model development, So I've worked on lots of project involving deep learning, generative AI, transformers, and everything.
+AI: That's great, Gaurav. Let's talk a bit about your technical experience. You mentioned working with deep learning. Um, do you have hands on production experience with it?
+User: Yeah. Yeah. I have deployed couple of projects in the production level. And 1 of it is, uh, running with a hundred users. So, yeah, I have a practical application experience.
+AI: Thank you for sharing that. Um, have you used deep learning recently say, within the last 6 to 12 months?
+User: Yeah. I have used deep learning just today itself.
+AI: That's impressive. If you faced a scenario where a deep learning model is underperforming, how would you approach solving it?
+User: Yeah. So, uh, underperforming of a deep learning model, you know, depends on various factors. So first, uh, look into, uh, the working principle behind that model. And try to analyze it, try to debug what are the responsible factors behind getting the non, uh, you know, working of model. Then try to handle those things.
+AI: Thank you, Gaurav. That's all from my side. For now, our team will review your
+User: Yeah. Thank you.
+AI: Thank you, Gaurav. You may receive a WhatsApp or email with the next steps. Or a short task. A wonderful day ahead.
+User: Yeah. You too. Thank you.
+AI: Welcome. Take care.
+User: Thank you.
+AI: You're welcome.

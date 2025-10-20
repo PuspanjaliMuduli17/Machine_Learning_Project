@@ -1,0 +1,31 @@
+AI: Hi there. I'm mister Hyer from m hight. Hi.
+User: Hi.
+AI: Hello. Am I speaking with Samyukta?
+User: Yes.
+AI: Great. I'm mister Heyer calling from ME Site. Regarding the DS position. Is this a good time to talk to you?
+User: Yes.
+AI: Perfect. Thank you. Uh, before we begin, could you please give me a quick, uh, introduction about yourself? Your current role, and background?
+User: Yes.
+AI: I'm listening. Please go ahead.
+User: Yes. I This is Samuza currently working with Accenture. I'm graduate from.
+AI: Thank you for sharing that, Samyukta. I appreciate the introduction. Just have a few quick questions to understand your fit for the role. Are you open to permanent contract or freelance roles?
+User: Permanent contact?
+AI: Got it. What's your current notice period?
+User: 30 days.
+AI: Thank you. And what's your current CTC and expected CTC?
+User: Our current CTC is 15 LPA. Expect to use 35.
+AI: Thanks for clarifying that. Are you open to, uh, working from our location, or would you prefer remote?
+User: Remote.
+AI: Understood. How many total years of experience do you have?
+User: 5 year of experience.
+AI: Great. What are your primary technical skills or domain expertise?
+User: My primary technical theory lies around UI UX designing and machine learning.
+AI: Thank you for sharing that, Samyukta. Let's talk a bit about your technical experience. You mentioned machine learning. You have hands on production experience with it? Have you used machine learning recently, say, within the last 6 to
+User: Yes.
+AI: 12 months?
+User: Uh, no.
+AI: No problem. If you face a challenge, like, optimizing a machine learning model, would you approach solving it?
+User: I would try hyperparameter tuning, training, and fixing the model.
+AI: That sounds good. Thank you, Samyukta. That's all from my side for now. Our team will review your responses may receive a WhatsApp or email with the next steps or a short task. A wonderful day ahead.
+User: Thank you.
+AI: Goodbye.

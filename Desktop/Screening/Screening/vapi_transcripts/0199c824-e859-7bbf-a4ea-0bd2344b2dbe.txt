@@ -1,0 +1,10 @@
+AI: Hi there. I'm mister Hayar from ME site.
+User: Hi.
+AI: Hello? Am I speaking with Puja?
+User: Yes.
+AI: Great. I'm calling regarding the data science position you applied for. Is this a good time to talk?
+User: No.
+AI: No problem. When would be a better time for me to reach you? Would tomorrow around this time?
+User: Yes.
+AI: Perfect. I'll call you tomorrow at the same time. Have a wonderful day ahead. Ending the call now.
+User: Okay.
